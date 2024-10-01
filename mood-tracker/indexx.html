@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylee.css">
+</head>
+<body>
+    <h1>Mood Tracker</h1>
+    <form id="moodForm">
+        <label for="moodSelect">Select your mood:</label>
+        <select name="" id="moodSelect">
+            <option value="Happy">Happy</option>
+            <option value="Angry">Angry</option>
+            <option value="Sad">Sad</option>
+            <option value="Neutral">Neutral</option>
+        </select>
+        <br>
+        <label for="">Notes:</label>
+        <textarea rows="4" cols="50" id="moodNotes"></textarea>
+        <br>
+        <button type="submit">Save Mood</button>
+        <button type="button" id="clearMood">Clear Moods</button>
+    </form>
+
+    <ul id="moodList"></ul>
+
+    <script src="scriptt.js"></script>
+</body>
+</html>
